@@ -16,9 +16,9 @@ const routes = [
         component: () => import('@/views/RecoveryPassword.vue'),
       },
       {
-        path: 'services',
-        name: 'Services',
-        component: () => null,
+        path: 'orders-of-service',
+        name: 'OrdersOfService',
+        component: () => import('@/views/OrderOfService/List.vue'),
       },
     ],
   },
