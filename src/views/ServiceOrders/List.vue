@@ -1,5 +1,5 @@
 <template>
-  <div id="order-of-service-list">
+  <div id="service-orders-list">
     <i-container fluid style="height: 100vh">
       <i-row center middle style="height: 100%">
         <i-column xs="10" sm="10" md="10">

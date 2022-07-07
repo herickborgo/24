@@ -74,7 +74,7 @@ export default {
     onSubmit(event) {
       event.preventDefault();
 
-      this.$router.push({ name: 'OrdersOfService' });
+      this.$router.push({ name: 'ServiceOrders' });
     },
     recoveryPassword() {
       this.$router.push({ name: 'RecoveryPassword' });
